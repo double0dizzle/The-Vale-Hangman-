@@ -1,0 +1,89 @@
+body {
+    background-image: url("images/nature.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 1536px;
+}
+
+#mumbo {
+    width: 40%;
+    height: 300px;
+    margin-left: 460px;
+    background-image: url("images/header.jpg");
+    /* text: bold; */
+    background-size: 620px 350px;
+    margin-top: 16px;
+    border-radius: 18px;
+}
+
+#holder {
+    /* width: 20%;
+    float: right; */
+    margin-left: 450px;
+    margin-top: 10px;
+}
+
+.card-body {
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+.row { 
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#countdown {
+    font-family: 'Ranga', cursive;
+    color:rgb(41, 145, 110);
+    text-shadow: 8px 8px 8px rgb(83, 9, 44);
+    font-size: 66px;
+    text-align: center;
+    
+  }
+
+  #timer {
+    font-family: 'Ranga', cursive;
+    color:rgb(41, 145, 110);
+    text-shadow: 8px 8px 8px rgb(83, 9, 44);
+    font-size: 66px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+  .card {
+    background-image: url("images/card1.jpg");
+  }
+
+  .card1 {
+    background-color: black;
+    color: green;
+    text-align: center;
+    
+    
+    
+  }
+
+  .card2 {
+    background-image: url("images/lake.jpg");
+    background-size: 300px 166px;
+    height: 59%;
+    text-align: center;
+  }
+
+  p {
+      margin: 0px;
+      text-align: center;
+  }
+
+  
+
+
+
+
+
+
+

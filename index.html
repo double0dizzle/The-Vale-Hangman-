@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Word Guess Demo</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+
+        <!-- <div id="jumbo" class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">The Vail</h1>
+                  <p id="header" class="lead"><b>Thank you for joining us today.  Nature is our home.</b></p>
+                  <p id="header" class="lead"><b>Please press any key to continue.</b></p>
+                </div>
+              </div> -->
+<div id="all">
+              <div id="mumbo">
+                    <div>
+                      <h1>The Vale</h1>
+                      <p id="header"><b>Thank you for joining me today.</b></p>
+                      <p><b>Nature is our home, so please explore.</b></p>
+                      <p id="header"><b>-Press any key to continue-</b></p>
+                    </div>
+                </div>
+
+                  <div id="holder">
+                  <div class="row">
+                        <div  id="card1" class="col-lg-6">
+                          <!-- First card: Holds the word to guess (blanks and guessed word) -->
+                          <div  class="card1">
+                            <!-- <div class="card-header">
+                              <h3 class="card-title"><strong>Word to Guess</strong></h3>
+                            </div> -->
+                            <div class="card-body">
+                              <h3 id="letterBlanks">_ _ _ _ _ _ _ _ _ </h3>
+                            </div>
+                          </div>
+                  
+                          <!-- Second card: Holds the list of incorrect guesses. -->
+                          <div class="card2">
+                            <div class="card-body">
+                              <strong>Incorrect Guesses: </strong> <span id="incorrectGuesses"></span>
+                            </div>
+                          </div>
+                          </div>
+                  
+                          <!-- Third card: Holds the number of guesses remaining -->
+                        
+                          <div id="col" class="col-lg-6">
+                          <div class="card">
+                            <div class="card-body">
+                              <strong>Guesses Remaining: </strong> <span id="guessesRemaining">9</span>
+                            </div>
+                          </div>
+                  
+                          <!-- Fourth card: Holds the number of wins. -->
+                          <div class="card">
+                            <div class="card-body">
+                              <strong>Wins: </strong> <span id="wins">0</span>
+                            </div>
+                          </div>
+                  
+                          <!-- Fifth card: Holds the number of losses. -->
+                          <div class="card">
+                            <div class="card-body">
+                              <strong>Losses: </strong> <span id="losses">0</span>
+                            </div>
+                        </div>
+                    
+                          </div>
+
+            <!-- <div id="countdown">Timer:</div> -->
+            <div id="timer">Timer:<span id="countdown"></span></div>
+                        
+                    
+                
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  
+  <script src="game.js"></script>
+</body>
+
+</html>
